@@ -1,9 +1,22 @@
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 pydantic>=2.5.3
-pyyaml>=6.0.1
-httpx>=0.26.0
+pydantic-settings>=2.1.0
+sqlalchemy>=2.0.25
+asyncpg>=0.29.0
+aiosqlite>=0.19.0
+redis>=5.0.0
+python-multipart>=0.0.6
+email-validator>=2.1.0
+structlog>=24.1.0
+python-dotenv>=1.0.0
+click>=8.1.0
+typer>=0.9.0
+rich>=13.7.0
+cryptography>=41.0.7
+celery>=5.3.4
 
 # Testing
 pytest>=7.4.4
 pytest-asyncio>=0.23.3
+pytest-cov>=4.1.0
